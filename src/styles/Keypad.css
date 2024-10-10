@@ -1,0 +1,41 @@
+.keypad {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    background-color: #64a1bf; 
+    padding: 20px;
+    border-radius: 0px; 
+  }
+  
+  .button {
+    padding: 20px;
+    font-size: 1.5rem;
+    background-color: #0cb4ac; /* Color de fondo de los botones */
+    border: 2px solid  #f2f6f2;
+    cursor: pointer;
+    border-radius: 5px; /* Bordes redondeados de los botones */
+    transition: background-color 0.3s; /* Transición suave para el cambio de color */
+  }
+  
+  .button:hover {
+    background-color: #ddd; /* Color de fondo al pasar el ratón */
+  }
+  
+  .button:active {
+    background-color: #f64494; /* Color de fondo al hacer clic */
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .keypad {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .button {
+      padding: 15px;
+      font-size: 1.2rem;
+    }
+  }
+  
