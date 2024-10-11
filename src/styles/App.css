@@ -2,7 +2,7 @@
 
 .calculator {
   width: 300px;
-  margin: 50px auto; /* Centra la calculadora */
+  margin: 50px auto; /* Para centrar la calculadora */
   border: 1px solid #ccc;
   border-radius: 10px;
   overflow: hidden;

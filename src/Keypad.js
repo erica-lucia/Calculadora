@@ -13,8 +13,6 @@ function Keypad({ handleClick }) {
   return (
     <div className="keypad">
       {buttons.map((btn, index) => (
-        //para que los botones tengan estilos definidos agrego la clase button a cada boton 
-        //para que los estilos se apliquen correctamente y no salgan los estilos predeterminados
         <button key={index} className="button" onClick={() => handleClick(btn)}>
           {btn}
         </button>
